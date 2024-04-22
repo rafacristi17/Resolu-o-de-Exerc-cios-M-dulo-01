@@ -14,7 +14,7 @@ const media = (ava1+ava2)/2;
 if(media >= 6.0 && media <= 10){
     console.log("PARABÉNS! Você foi aprovado! Sua média ficou em : ", media);
 }else if(media <= 5.0 && media <= 0.0){
-    console.log("Que pena, você foi Reprovado! Sua média ficou em : ", media);
+    console.log("Você foi REPROVADO! Estude mais, Sua média ficou em : ", media);
 }else{
     console.log("Digite um número válido");
 }
